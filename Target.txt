@@ -1,0 +1,10 @@
+weapon,masada_digital
+image,h2_weapon_masada_acog
+xmodel,h2_viewmodel_masada_acog
+weapon,masada_acog
+xanim,h2_wpn_asl_masada_ads_acog_fire
+weapon,masada_reflex
+xanim,h2_wpn_asl_masada_ads_acog_fire
+xanim,h2_wpn_asl_masada_ads_acog_up
+xanim,h2_wpn_asl_masada_ads_acog_down
+weapon,masada_acog
