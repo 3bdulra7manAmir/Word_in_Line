@@ -10,22 +10,22 @@ print("CSV file name is : " + fileName)
 
 for x in os.listdir(targetedPath):
     if x.endswith(".xmodel_export"):
-        f = open(""f"{fileName}.txt", "a")
+        f = open(""f"{fileName}.csv", "a")
         f.write("xmodel," + x + "\n")
         f.close()
         print(x)
     elif x.endswith(".xanim_export"):
-        f = open(""f"{fileName}.txt", "a")
+        f = open(""f"{fileName}.csv", "a")
         f.write("xanim," + x + "\n")
         f.close()
         print(x)
     elif x.endswith(".json"):
-        f = open(""f"{fileName}.txt", "a")
+        f = open(""f"{fileName}.csv", "a")
         f.write("material," + x + "\n")
         f.close()
         print(x)
     elif x.startswith("hud"):
-        f = open(""f"{fileName}.txt", "a")
+        f = open(""f"{fileName}.csv", "a")
         f.write("material," + x + "\n")
         f.close()
         print(x)

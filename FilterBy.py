@@ -4,10 +4,11 @@ import time
 
 targetedWord = input("Go ahead Alpha!: ")
 print("Your String is : " + targetedWord)
-with open("Target.txt") as file1:
+
+with open("Incoming.txt") as file1:
     for line in file1:
         if line.startswith(targetedWord):
-            f = open("result.txt", "w")
+            f = open("Outcoming.txt", "w")
             f.write(line)
             f.close()
             print(line)
