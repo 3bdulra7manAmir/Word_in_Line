@@ -3,3 +3,4 @@
 
 A Simple Python Script to Search for "[Warning!]" in a Text file and when it Finds That Specific Word it returns The Whole Line...
 
+![Finder](https://github.com/user-attachments/assets/a5d2f5cf-cfa7-4830-8849-781a63ae39fa)
